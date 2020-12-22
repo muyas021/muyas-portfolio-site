@@ -33,18 +33,6 @@ img {
   }
 }
 
-@media screen and (max-width: 567px) {
-  .fit-screen {
-    height: calc(100vh - 3.25rem);
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .fit-screen {
-    height: calc(100vh - 3rem);
-  }
-}
-
 .intro {
   margin: auto 15.625vw calc(2.5rem + 1vw);
 }
@@ -78,14 +66,14 @@ img {
 
 @media screen and (max-width: 567px) {
   .intro-head {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.25;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro-head {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 1.3;
   }
 }
@@ -121,6 +109,12 @@ img {
   text-decoration: none;
   background: #0D131F;
   position: relative;
+}
+
+@media screen and (max-width: 567px) {
+  .cta-scroll {
+    margin-bottom: 3.25rem;
+  }
 }
 
 .img-horizon {
