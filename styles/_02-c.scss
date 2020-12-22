@@ -1,0 +1,43 @@
+.contact-suggest {
+  margin: 0.5rem 1rem 2rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: $snow-font-grey100;
+}
+
+@media screen and (max-width: 1023px) {
+  .contact-suggest {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.contact-further {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: $snow-font-black;
+  margin-bottom: 0.125rem;
+}
+
+@media screen and (max-width: 567px) {
+  .contact-further {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contact-further {
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+  }
+}
+
+.img-arah-mata {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}

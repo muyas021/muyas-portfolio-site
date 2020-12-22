@@ -1,0 +1,47 @@
+// r Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+// p Typography
+$font-primary: "Inter", sans-serif;
+
+// p Color
+$night-bg: #0D131F;
+$night-font-grey100: #84878B;
+
+$snow-bg: #F3F5F6;
+$snow-rectangle: #EBECF0;
+$snow-divider: #C4CCDD;
+
+$snow-font-black: #1E283B;
+$snow-font-black-hover: #2D3749;
+$snow-font-grey100: #465168;
+$snow-font-grey50: #636E86;
+
+// r CSS Reset
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: $font-primary;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+// r Import Partial SCSS
+@import "02-home";
+@import "02-cs";
+@import "02-w";
+@import "02-r";
+@import "02-c";
+@import "02-cs-template";
+
+// p Nav-All-Helpers Must be at buttom ↓
+@import "01-nav";
+@import "01-footer";
+@import "01-all";
+@import "01-helpers";

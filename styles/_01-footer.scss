@@ -1,0 +1,126 @@
+.footer {
+  width: 100vw;
+  height: auto;
+  background: $night-bg;
+  display: flex;
+  flex-direction: column;
+  padding-left: calc(15.625vw - 1rem);
+  padding-right: calc(15.625vw - 1rem);
+  box-sizing: border-box;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .footer {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+.footer-section {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer-section {
+    margin-bottom: 2rem;
+  }
+}
+
+.get-in-touch {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 2.25rem;
+    color: $snow-bg;
+    margin-bottom: 0.25rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .get-in-touch {
+    letter-spacing: 0.25px;
+    margin-bottom: 0.125rem;
+    line-height: 1.5rem;
+  }
+}
+
+.direct-contact {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: $night-font-grey100;
+    margin-bottom: 0.25rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .direct-contact {
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .direct-contact {
+    font-size: 0.95rem;
+  }
+}
+
+.become-a-friend {
+    font-weight: 400;
+    font-size: 0.95rem;
+    line-height: 1.75rem;
+    color: $night-font-grey100;
+    text-decoration: none;
+    margin-bottom: 0.25rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .become-a-friend {
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .become-a-friend {
+    font-size: 0.9rem;
+  }
+}
+
+.become-a-friend:hover {
+    color: $snow-bg;
+    text-decoration: underline;
+}
+
+.connect-dot {
+    font-weight: 400;
+    font-size: 0.5rem;
+    line-height: 1.75rem;
+    color: $night-font-grey100;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .connect-dot {
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+  }
+}
+
+.online-presence {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

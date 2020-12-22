@@ -1,0 +1,288 @@
+// p Page Height
+.page-min-height {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-cover {
+  width: 100vw;
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 567px) {
+  .page-cover {
+    height: 6.5rem;
+  }
+}
+
+// p Margin bottom 0
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-contact {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .mt-contact {
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .mt-contact {
+    margin-bottom: 0;
+  }
+}
+
+.mb-logo-footer {
+margin-bottom: 0.35rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .mb-logo-footer {
+    margin-bottom: 0;
+  }
+}
+
+.mlr-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+// p Padding to land on case studies
+.pt-scroll-rest {
+  margin-top: 5rem;
+  padding-top: 3.5rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .pt-scroll-rest {
+    margin-top: 2rem;
+    padding-top: 3rem;
+  }
+}
+
+// p Margin for space between case studies and writings
+.mt-content-home {
+  margin-top: 6.5rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .mt-content-home {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .mt-content-home {
+    margin-top: 2.5rem;
+  }
+}
+
+// p Margin for Page space
+.mt-content-page {
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .mt-content-page {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .mt-content-page {
+    margin-top: 3rem;
+  }
+}
+
+.mb-content-page {
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .mb-content-page {
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .mb-content-page {
+    margin-bottom: 2rem;
+  }
+}
+
+// p Margin for space between writings and footer
+.mb-content-home {
+  margin-bottom: 6rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .mb-content-home {
+    margin-bottom: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .mb-content-home {
+    margin-bottom: 3rem;
+  }
+}
+
+// p Margin for footer alone
+.m-footer {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .m-footer {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .m-footer {
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    flex-direction: column;
+  }
+}
+
+// p Margin bottom for resume
+.mb-last-section {
+  margin-bottom: 0.75rem;
+}
+
+.mb-education {
+  margin-bottom: 0.25rem;
+}
+
+// p No Padding
+.no-padding {
+  padding: 0 0 3rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .no-padding {
+    padding: 0 0 1rem;
+  }
+}
+
+// p for Background
+.has-bg-mint {
+  background: $night-bg;
+}
+
+.has-bg-snow {
+  background: $snow-bg;
+}
+
+.has-bg-night {
+  background: $night-bg;
+}
+
+.has-bg-font-black {
+  background: $snow-font-black;
+}
+
+
+// p for Navigation
+.has-color-snow {
+  color: $snow-bg;
+}
+
+.has-color-font-black {
+  color: $snow-font-black;
+}
+
+.is-menu-at-home {
+  color: $night-font-grey100;
+}
+
+.is-menu-at-home:hover {
+  color: $snow-bg;
+}
+
+.is-menu-active {
+  color: $snow-font-black;
+}
+
+.is-menu-active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 1.5px;
+  background: $snow-font-black;
+
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+.is-menu-idle {
+  color: $snow-font-grey50;
+}
+
+.is-menu-idle:hover {
+  color: $snow-font-black;
+}
+
+.is-contact-idle {
+  color: $snow-font-grey100;
+}
+
+.is-contact-idle:hover {
+  color: $snow-font-black;
+}
+
+// p Justify Center
+.justify-center {
+  align-items: center;
+}
+
+// p Display
+.display-568-up {
+  position: relative;
+}
+
+@media screen and (max-width: 567px) {
+  .display-568-up {
+    display: none;
+  }
+}
+
+.display-567-down {
+  position: relative;
+}
+
+@media screen and (min-width: 568px) {
+  .display-567-down {
+    display: none;
+  }
+}
+
+.section-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 730px) {
+  .section-row {
+    flex-direction: column;
+  }
+}
+
+.text-center {
+  text-align: center;
+}

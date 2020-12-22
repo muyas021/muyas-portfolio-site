@@ -1,0 +1,196 @@
+// p Nav Psges
+.nav-pages {
+  width: 100vw;
+  height: auto;
+}
+
+.nav-desktop {
+  margin: calc(1rem + 1.5vw) 15.625vw 0;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  .nav-desktop {
+    margin: 2.75rem 2rem 0;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .nav-desktop {
+    margin: 1.875rem 1.5rem 0;
+  }
+}
+
+.logo-muyas {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  text-decoration: none;
+  color: $snow-font-black;
+}
+
+.nav-menu {
+  height: auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+.menu-text {
+  margin-left: 2.5rem;
+  font-weight: 500;
+  font-size: calc(0.875rem + 0.15625vw);
+  line-height: calc(1rem + 1.953125vw);
+  text-decoration: none;
+  position: relative;
+}
+
+// p Navigation
+.navigation {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba($color: $night-bg, $alpha: 0);
+  clip-path: circle(25px at calc(100% - 25px) 25px);
+  z-index: 200;
+  transition: all 400ms ease-in-out;
+}
+
+// Responsive Navigation
+@media screen and (min-width: 1024px) {
+  .navigation {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .navigation {
+    clip-path: circle(100px at calc(100% - 25px) 25px);
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .navigation {
+    clip-path: circle(72px at calc(100% - 25px) 25px);
+  }
+}
+
+.navigation.active {
+  position: fixed;
+  clip-path: circle(100%);
+  background: $night-bg;
+}
+
+// p Ham Btn
+.navigation .ham-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+// Responsive Ham Btn
+@media screen and (min-width: 1024px) {
+  .navigation .ham-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .navigation .ham-btn {
+    top: 2.4375rem;
+    right: 1.375rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .navigation .ham-btn {
+    top: 1.4375rem;
+    right: 0.75rem;
+  }
+}
+
+// c1 Ham Btn Span
+.navigation .ham-btn span {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 2px;
+  transition: all 400ms ease-in-out;
+}
+
+// Responsive Ham Btn Span
+@media screen and (min-width: 1023px) {
+  .navigation .ham-btn span {
+    display: none;
+  }
+}
+
+// R Animation Span
+.navigation .ham-btn span:nth-child(1) {
+  top: 35%;
+}
+
+.navigation .ham-btn span:nth-child(2) {
+  top: 50%;
+}
+
+.navigation .ham-btn span:nth-child(3) {
+  top: 65%;
+}
+
+.navigation.active .ham-btn span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: $snow-bg;
+}
+
+.navigation.active .ham-btn span:nth-child(2) {
+  display: none;
+  background: $snow-bg;
+}
+
+.navigation.active .ham-btn span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background: $snow-bg;
+}
+
+// p Links
+.navigation .links {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+
+// c1 Links A
+.navigation .links a {
+  position: relative;
+  display: inline-block;
+  margin: 20px 0px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgba($color: $snow-bg, $alpha: 0);
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.navigation.active .links a {
+  color: $snow-bg;
+}
