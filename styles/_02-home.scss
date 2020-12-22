@@ -2,7 +2,7 @@
 .fit-screen {
   width: 100vw;
   height: 100vh;
-  background: $snow-bg;
+  background: $night-bg;
   display: flex;
   flex-direction: column;
 }
@@ -78,65 +78,65 @@
   }
 }
 
-.cta-scroll {
-  height: calc(4.25rem + 1.25vw);
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  background: $night-bg;
-  position: relative;
-}
+// .cta-scroll {
+//   height: calc(4.25rem + 1.25vw);
+//   display: flex;
+//   align-items: center;
+//   text-decoration: none;
+//   background: $night-bg;
+//   position: relative;
+// }
 
-@media screen and (max-width: 1023px) {
-  .cta-scroll {
-    display: none;
-  }
-}
+// @media screen and (max-width: 1023px) {
+//   .cta-scroll {
+//     display: none;
+//   }
+// }
 
-.img-horizon {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
+// .img-horizon {
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   object-fit: cover;
+//   object-position: center;
+// }
 
-.cta-scroll::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: calc(4rem + 1.25vw);
-  width: 100%;
-  background: hsla(0, 0, 0, 0.2);
-}
+// .cta-scroll::after {
+//   content: "";
+//   position: absolute;
+//   bottom: 0;
+//   left: 0;
+//   height: calc(4rem + 1.25vw);
+//   width: 100%;
+//   background: hsla(0, 0, 0, 0.2);
+// }
 
-.cta-scroll:hover::after {
-  background: hsla(0, 0, 0, 0);
-}
+// .cta-scroll:hover::after {
+//   background: hsla(0, 0, 0, 0);
+// }
 
-.scroll-more {
-  margin: 0 15.625vw;
-  font-weight: 400;
-  font-size: calc(1rem);
-  line-height: calc(2rem);
-  color: $snow-bg;
-  z-index: 1 !important;
-}
+// .scroll-more {
+//   margin: 0 15.625vw;
+//   font-weight: 400;
+//   font-size: calc(1rem);
+//   line-height: calc(2rem);
+//   color: $snow-bg;
+//   z-index: 1 !important;
+// }
 
-@media screen and (max-width: 1023px) {
-  .scroll-more {
-    margin: 0 2rem;
-  }
-}
+// @media screen and (max-width: 1023px) {
+//   .scroll-more {
+//     margin: 0 2rem;
+//   }
+// }
 
-@media screen and (max-width: 567px) {
-  .scroll-more {
-    margin: 0 1.5rem;
-  }
-}
+// @media screen and (max-width: 567px) {
+//   .scroll-more {
+//     margin: 0 1.5rem;
+//   }
+// }
 
 .see-resume {
   font-weight: 600;
