@@ -4,6 +4,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: $night-bg;
 }
 
 .page-cover {
@@ -71,7 +72,7 @@ margin-bottom: 0.35rem;
 
 // p Margin for space between case studies and writings
 .mt-content-home {
-  margin-top: 6.5rem;
+  margin-top: 9rem;
 }
 
 @media screen and (max-width: 1023px) {
@@ -88,7 +89,7 @@ margin-bottom: 0.35rem;
 
 // p Margin for Page space
 .mt-content-page {
-  margin-top: 4rem;
+  margin-top: 6.5rem;
 }
 
 @media screen and (max-width: 1023px) {
@@ -138,7 +139,7 @@ margin-bottom: 0.35rem;
 
 // p Margin for footer alone
 .m-footer {
-  margin-top: 4rem;
+  margin-top: 6rem;
   margin-bottom: 5rem;
 }
 

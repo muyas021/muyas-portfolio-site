@@ -50,7 +50,7 @@
   font-weight: 600;
   font-size: 0.8125rem;
   line-height: 1.125rem;
-  color: $snow-font-grey100;
+  color: $night-font-grey100;
   margin-top: 1rem;
 }
 
@@ -67,11 +67,11 @@
 }
 
 .article-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: calc(1rem + 0.15625vw);
   line-height: 1.5;
   letter-spacing: 0.25px;
-  color: $snow-font-black;
+  color: $night-font-white;
   margin-top: 0.25rem;
 }
 
@@ -85,7 +85,7 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.563;
-  color: $snow-font-grey100;
+  color: $night-font-grey100;
   margin-top: 0.325rem;
 }
 

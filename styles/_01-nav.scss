@@ -2,6 +2,7 @@
 .nav-pages {
   width: 100vw;
   height: auto;
+  background: $night-bg;
 }
 
 .nav-desktop {
@@ -30,7 +31,7 @@
   font-size: 1.375rem;
   line-height: 2.25rem;
   text-decoration: none;
-  color: $snow-font-black;
+  color: $night-font-white;
 }
 
 .nav-menu {
@@ -46,10 +47,15 @@
 .menu-text {
   margin-left: 2.5rem;
   font-weight: 500;
-  font-size: calc(0.875rem + 0.15625vw);
+  font-size: 0.9375rem;
   line-height: calc(1rem + 1.953125vw);
   text-decoration: none;
   position: relative;
+  color: #A1A4AA;
+}
+
+.menu-text:hover {
+  color: $night-font-white;
 }
 
 // p Navigation
@@ -59,7 +65,7 @@
   left: 0px;
   width: 100%;
   min-height: 100vh;
-  background: rgba($color: $night-bg, $alpha: 0);
+  background: rgba($color: $bg-gradient-nav, $alpha: 0);
   clip-path: circle(25px at calc(100% - 25px) 25px);
   z-index: 2;
   transition: all 400ms ease-in-out;
@@ -87,7 +93,7 @@
 .navigation.active {
   position: fixed;
   clip-path: circle(100%);
-  background: $night-bg;
+  background: $bg-gradient-nav;
 }
 
 // p Ham Btn

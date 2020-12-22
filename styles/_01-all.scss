@@ -1,7 +1,7 @@
 .container {
   width: 100vw;
   height: auto;
-  background: $snow-bg;
+  background: $night-bg;
   display: flex;
   flex-direction: column;
   padding-left: calc(15.625vw - 1rem);
@@ -27,7 +27,7 @@
     margin: 0 1rem 1.5rem;
     font-weight: 600;
     font-size: calc(1rem + 0.5vw);
-    color: $snow-font-black;
+    color: $night-font-white;
     letter-spacing: 0.25px;
 }
 
