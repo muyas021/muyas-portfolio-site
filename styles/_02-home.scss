@@ -79,7 +79,7 @@
 }
 
 .cta-scroll {
-  height: calc(4rem + 1.25vw);
+  height: calc(4.25rem + 1.25vw);
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 567px) {
   .cta-scroll {
-    margin-bottom: 3.25rem;
+    margin-bottom: 3.5rem;
   }
 }
 
