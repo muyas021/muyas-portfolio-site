@@ -13,6 +13,18 @@
   }
 }
 
+@media screen and (max-width: 567px) {
+  .fit-screen {
+    height: cal(100vh - 5rem);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .fit-screen {
+    height: cal(100vh - 4.5rem);
+  }
+}
+
 .intro {
   margin: auto 15.625vw calc(2.5rem + 1vw);
 }
