@@ -1091,8 +1091,8 @@ img {
   width: 100%;
   min-height: 100vh;
   background: rgba(13, 19, 31, 0);
+  clip-path: circle(25px at calc(100% - 25px) 25px);
   -webkit-clip-path: circle(25px at calc(100% - 25px) 25px);
-          clip-path: circle(25px at calc(100% - 25px) 25px);
   z-index: 200;
   -webkit-transition: all 400ms ease-in-out;
   transition: all 400ms ease-in-out;
@@ -1106,22 +1106,22 @@ img {
 
 @media screen and (max-width: 1023px) {
   .navigation {
+    clip-path: circle(100px at calc(100% - 25px) 25px);
     -webkit-clip-path: circle(100px at calc(100% - 25px) 25px);
-            clip-path: circle(100px at calc(100% - 25px) 25px);
   }
 }
 
 @media screen and (max-width: 567px) {
   .navigation {
+    clip-path: circle(72px at calc(100% - 25px) 25px);
     -webkit-clip-path: circle(72px at calc(100% - 25px) 25px);
-            clip-path: circle(72px at calc(100% - 25px) 25px);
   }
 }
 
 .navigation.active {
   position: fixed;
+  clip-path: circle(100%);
   -webkit-clip-path: circle(100%);
-          clip-path: circle(100%);
   background: #0D131F;
 }
 

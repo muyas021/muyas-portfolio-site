@@ -61,6 +61,7 @@
   min-height: 100vh;
   background: rgba($color: $night-bg, $alpha: 0);
   clip-path: circle(25px at calc(100% - 25px) 25px);
+  -webkit-clip-path: circle(25px at calc(100% - 25px) 25px);
   z-index: 200;
   transition: all 400ms ease-in-out;
 }
@@ -75,18 +76,21 @@
 @media screen and (max-width: 1023px) {
   .navigation {
     clip-path: circle(100px at calc(100% - 25px) 25px);
+    -webkit-clip-path: circle(100px at calc(100% - 25px) 25px);
   }
 }
 
 @media screen and (max-width: 567px) {
   .navigation {
     clip-path: circle(72px at calc(100% - 25px) 25px);
+    -webkit-clip-path: circle(72px at calc(100% - 25px) 25px);
   }
 }
 
 .navigation.active {
   position: fixed;
   clip-path: circle(100%);
+  -webkit-clip-path: circle(100%);
   background: $night-bg;
 }
 
