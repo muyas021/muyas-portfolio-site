@@ -4,7 +4,7 @@
   position: relative;
 }
 
-.behind-cover::after {
+.behind-cover::before {
   content: "";
   position: absolute;
   top: 0;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 1023px) {
-  .behind-cover::after {
+  .behind-cover::before {
     height: 32vw;
   }
 }
