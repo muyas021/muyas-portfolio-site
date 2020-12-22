@@ -4,22 +4,6 @@
   position: relative;
 }
 
-.behind-cover::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 26vw;
-  width: 100%;
-  background: $night-bg;
-}
-
-@media screen and (max-width: 1023px) {
-  .behind-cover::before {
-    height: 32vw;
-  }
-}
-
 .cover-cs {
   width: calc(100% - 2rem);
   margin: 0 1rem 3rem;
@@ -50,7 +34,7 @@
   font-weight: 600;
   font-size: 3.125rem;
   line-height: 4.25rem;
-  color: $snow-font-black;
+  color: $night-font-white;
   text-align: center;
   z-index: 2;
 }
@@ -76,7 +60,7 @@
   width: 75%;
   margin: 0 auto 3rem;
   height: auto;
-  background: $snow-rectangle;
+  background: $night-box;
   padding: 3.25rem 3.25rem 2.25rem;
   box-sizing: border-box;
   border-radius: 4px;
@@ -98,6 +82,19 @@
   }
 }
 
+.border-overview {
+  height: 1px;
+  width: auto;
+  background: $night-box-hover;
+  margin: 1.25rem 0 2rem;
+}
+
+@media screen and (max-width: 730px) {
+  .border-overview {
+    display: none;
+  }
+}
+
 .overview-section {
   margin: 0;
 }
@@ -114,14 +111,23 @@
   font-size: 0.75rem;
   line-height: 1.25rem;
   letter-spacing: 1px;
-  color: $snow-font-black;
+  color: $bg-gradient-cta;
+}
+
+.overview-desc {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.875;
+  color: $night-font-grey100;
 }
 
 .main-title {
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.625;
-  color: $snow-font-black;
+  color: $night-font-white;
   margin-bottom: 0.75rem;
 }
 
@@ -135,7 +141,7 @@
   font-weight: 600;
   font-size: 1rem;
   line-height: 1.875;
-  color: $snow-font-black;
+  color: $night-font-white;
   margin-bottom: 0.125rem;
 }
 
@@ -143,28 +149,6 @@
   .sub-title {
     line-height: 1.625;
     margin-bottom: 0;
-  }
-}
-
-.overview-desc {
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.875;
-  color: $snow-font-grey100;
-}
-
-.border-overview {
-  height: 1px;
-  width: auto;
-  background: $snow-divider;
-  margin: 1.25rem 0 2rem;
-}
-
-@media screen and (max-width: 730px) {
-  .border-overview {
-    display: none;
   }
 }
 
@@ -219,7 +203,7 @@
   width: 100vw;
   height: auto;
   padding: 5rem calc(15.625vw - 1rem) 5.5rem;
-  background: $night-bg;
+  background: $night-box;
   display: flex;
   flex-direction: column;
 }

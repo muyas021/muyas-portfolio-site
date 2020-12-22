@@ -1,7 +1,7 @@
 .footer {
   width: 100vw;
   height: auto;
-  background: $night-bg;
+  background: linear-gradient(180deg, #101010 0%, #1A1A1A 80%, #1A1A1A 100%);
   display: flex;
   flex-direction: column;
   padding-left: calc(15.625vw - 1rem);
