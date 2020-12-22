@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1439px) and (max-height: 600px) and (orientation: landscape) {
   .fit-screen {
-    height: 40rem;
+    height: 32rem;
   }
 }
 
@@ -38,7 +38,7 @@
 @media screen and (max-width: 1407px) {
   .block {
     width: 632px;
-    height: 76px;
+    height: 64px;
     right: 88px;
   }
 }
@@ -46,7 +46,7 @@
 @media screen and (max-width: 1280px) {
   .block {
     width: 632px;
-    height: 76px;
+    height: 64px;
     right: 126px;
   }
 }
@@ -54,22 +54,30 @@
 @media screen and (max-width: 1024px) {
   .block {
     width: 632px;
-    height: 76px;
+    height: 48px;
     right: 0px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .block {
-    width: 240px;
-    height: 96px;
+    width: 96px;
+    height: 120px;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 1439px) and (max-height: 600px) and (orientation: landscape) {
+  .block {
+    width: 96px;
+    height: 120px;
     right: 0px;
   }
 }
 
 @media screen and (max-width: 576px) {
   .block {
-    width: 150px;
+    width: 80px;
     height: 96px;
     right: 0px;
   }
@@ -77,6 +85,18 @@
 
 .intro {
   margin: auto 15.625vw calc(2.5rem + 1vw);
+  animation: reveal 0.6s ease-in-out;
+}
+
+@keyframes reveal {
+  0% {
+    transform: translateY(2rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 1023px) {
