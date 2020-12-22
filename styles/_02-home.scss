@@ -22,7 +22,10 @@
   top: 0px;
   background: $bg-gradient-cta;
   filter: blur(100px);
-  -webkit-filter: blur(100px);
+  filter: -webkit-blur(100px);
+  filter: -moz-blur(100px);
+  filter: -o-blur(100px);
+  filter: -ms-blur(100px);
   opacity: 0.8;
 }
 

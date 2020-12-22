@@ -40,8 +40,13 @@ img {
   right: 80px;
   top: 0px;
   background: #0BC4FF;
-  filter: blur(100px);
   -webkit-filter: blur(100px);
+          filter: blur(100px);
+  -webkit-filter: -webkit-blur(100px);
+          filter: -webkit-blur(100px);
+  filter: -moz-blur(100px);
+  filter: -o-blur(100px);
+  filter: -ms-blur(100px);
   opacity: 0.8;
 }
 
