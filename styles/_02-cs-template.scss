@@ -176,6 +176,15 @@
   }
 }
 
+.cs-paragraph ol {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.875;
+  color: $night-font-grey100;
+  list-style-position: inside;
+}
+
 .img-artefact {
   width: 75%;
   margin: 0 auto 4rem;

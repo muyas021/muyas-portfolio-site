@@ -931,6 +931,15 @@ img {
   }
 }
 
+.cs-paragraph ol {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.875;
+  color: #8F8F8F;
+  list-style-position: inside;
+}
+
 .img-artefact {
   width: 75%;
   margin: 0 auto 4rem;
