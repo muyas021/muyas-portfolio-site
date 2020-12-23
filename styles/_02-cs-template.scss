@@ -106,7 +106,7 @@
 }
 
 .overview-heading {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.75rem;
   font-weight: 700;
   font-size: 0.75rem;
   line-height: 1.25rem;
@@ -115,12 +115,19 @@
 }
 
 .overview-desc {
-  margin-top: 0.5rem;
   margin-bottom: 1rem;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.875;
   color: $night-font-grey100;
+}
+
+.overview-section ul li {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.875;
+  color: $night-font-grey100;
+  list-style: none;
 }
 
 .main-title {
@@ -176,7 +183,7 @@
   }
 }
 
-.cs-paragraph ol {
+.cs-paragraph ol li {
   margin-top: 0;
   font-weight: 400;
   font-size: 1rem;
