@@ -211,6 +211,19 @@
   list-style-position: inside;
 }
 
+.cs-paragraph ul {
+  margin-bottom: 1.5rem;
+}
+
+.cs-paragraph ul li {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.875;
+  color: $night-font-grey100;
+  list-style-position: inside;
+  list-style-type: square;
+}
+
 .paragraph-desc {
   margin-bottom: 1.5rem;
   font-weight: 400;
