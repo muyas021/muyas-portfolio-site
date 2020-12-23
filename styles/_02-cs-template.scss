@@ -86,7 +86,7 @@
   height: 1px;
   width: auto;
   background: $night-box-hover;
-  margin: 1.25rem 0 2rem;
+  margin: 1.125rem 0 2rem;
 }
 
 @media screen and (max-width: 730px) {
@@ -130,6 +130,16 @@
 
 @media screen and (max-width: 567px) {
   .overview-desc {
+    margin-bottom: 0;
+  }
+}
+
+.overview-section ul {
+  margin-bottom: 0.75rem;
+}
+
+@media screen and (max-width: 730px) {
+  .overview-section ul {
     margin-bottom: 0;
   }
 }
