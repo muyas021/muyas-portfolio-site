@@ -101,17 +101,23 @@
 
 @media screen and (max-width: 730px) {
   .overview-section {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
   }
 }
 
 .overview-heading {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   font-weight: 700;
   font-size: 0.75rem;
   line-height: 1.25rem;
   letter-spacing: 1px;
   color: $bg-gradient-cta;
+}
+
+@media screen and (max-width: 730px) {
+  .overview-heading {
+    margin-bottom: 0.375rem;
+  }
 }
 
 .overview-desc {
@@ -120,6 +126,12 @@
   font-size: 1rem;
   line-height: 1.875;
   color: $night-font-grey100;
+}
+
+@media screen and (max-width: 567px) {
+  .overview-desc {
+    margin-bottom: 0;
+  }
 }
 
 .overview-section ul li {
