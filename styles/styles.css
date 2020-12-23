@@ -1077,12 +1077,12 @@ img {
   left: 0px;
   width: 100%;
   min-height: 100vh;
-  background: rgba(243, 244, 246, 0);
+  background: rgba(15, 56, 70, 0);
   -webkit-clip-path: circle(25px at calc(100% - 25px) 25px);
           clip-path: circle(25px at calc(100% - 25px) 25px);
   z-index: 5;
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
 
 @media screen and (min-width: 1024px) {
@@ -1109,7 +1109,7 @@ img {
   position: fixed;
   -webkit-clip-path: circle(100%);
           clip-path: circle(100%);
-  background: #1A1A1A;
+  background: #0F3846;
   z-index: 10;
 }
 
@@ -1211,13 +1211,9 @@ img {
   font-size: 1.25rem;
   font-weight: 500;
   text-decoration: none;
-  color: rgba(243, 245, 246, 0);
+  color: #F3F4F6;
   letter-spacing: 1px;
   cursor: pointer;
-}
-
-.navigation.active .links a {
-  color: #F3F5F6;
 }
 
 .footer {
