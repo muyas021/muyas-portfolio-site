@@ -32,6 +32,7 @@
   line-height: 2.25rem;
   text-decoration: none;
   color: $night-font-white;
+  z-index: 5;
 }
 
 .nav-menu {
@@ -67,7 +68,7 @@
   min-height: 100vh;
   background: rgba($color: $night-font-white, $alpha: 0);
   clip-path: circle(25px at calc(100% - 25px) 25px);
-  z-index: 2;
+  z-index: 5;
   transition: all 400ms ease-in-out;
 }
 
@@ -93,7 +94,7 @@
 .navigation.active {
   position: fixed;
   clip-path: circle(100%);
-  background: $night-box-hover;
+  background: $night-box;
   z-index: 10;
 }
 
