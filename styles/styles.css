@@ -1011,6 +1011,19 @@ img {
 .img-ingroup {
   width: 100%;
   margin: 1rem 0 0;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .img-ingroup {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .img-ingroup {
+    margin-bottom: 2.5rem;
+  }
 }
 
 .read-more-cs {
