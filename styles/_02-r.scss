@@ -147,6 +147,29 @@
   }
 }
 
+.section-proof {
+  margin: 0 2.75rem;
+}
+
+@media screen and (max-width: 767px) {
+  .section-proof {
+    margin: 0 2rem;
+  }
+}
+
+.section-proof ul {
+  margin-bottom: 2rem;
+}
+
+.section-proof ul li {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.875;
+  color: $night-font-grey100;
+  list-style-position: inside;
+  list-style-type: square;
+}
+
 .section-heading {
   margin-bottom: 1rem;
   font-weight: 700;
@@ -183,6 +206,10 @@
   .border-center {
     margin: 1.25rem 2rem 2rem;
   }
+}
+
+.for-work {
+  margin-top: 0.5rem;
 }
 
 .section-institution {
