@@ -1,0 +1,139 @@
+.mt-latest {
+  margin-top: 7.5rem;
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .mt-latest {
+    margin-top: 5rem;
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mt-latest {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.profile-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-column {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.img-dp {
+  object-fit: cover;
+  object-position: center;
+  height: 8.75rem;
+  margin-right: 2.5rem;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .img-dp {
+    height: 7.5rem;
+    margin-right: 0;
+  }
+}
+
+.bio-name {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.375rem;
+  color: $night-font-white;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .bio-name {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.bio-current {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: $night-font-grey100;
+  margin-bottom: 1rem;
+  letter-spacing: 2%;
+}
+
+@media screen and (max-width: 767px) {
+  .bio-current {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+}
+
+.cta-visit-portfolio {
+  text-decoration: none;
+  background: $bg-gradient-cta;
+  padding: 0.75rem 1.125rem;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: $night-bg;
+  letter-spacing: 0.25px;
+  align-items: center;
+  text-align: center;
+}
+
+.cta-visit-portfolio:hover {
+  background: $bg-gradient-cta-hover;
+}
+
+.display-inline-flex {
+  display: inline-flex;
+}
+
+.foot-center {
+    justify-content: center;
+}
+
+.mt-foot-bio {
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .mt-foot-bio {
+        margin-top: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .mt-foot-bio {
+        margin-top: 1rem;
+    }
+  }
+
+.mb-foot-bio {
+    margin-bottom: 4.5rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .mb-foot-bio {
+        margin-bottom: 1.5rem;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .mb-foot-bio {
+        margin-bottom: 1rem;
+    }
+  }
